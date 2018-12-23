@@ -1,1 +1,10 @@
 
+
+
+
+//Stänger nuvarande jFrame och öppnar önskad jFrame
+dispose();
+        ÖnskadJframe b = new ÖnskadJframe();
+        b.setVisible(true);
+        
+        
