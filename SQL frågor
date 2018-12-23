@@ -1,0 +1,5 @@
+//hämtar ut elever i ett elevhem slytherin ska bytas ut till en variabel i java
+select fornamn,efternamn from elev
+join sovsal on sovsal_ID = sovsal
+join elevhem on elevhem = elevhem_ID
+where elevhemsnamn = 'Slytherin';
